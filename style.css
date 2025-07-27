@@ -586,13 +586,13 @@ color: var(--white-color);
         aspect-ratio: 1;
     }
 
-     .menu-section .menu-list {
+    .menu-section .menu-list {
         gap: 30px;
     }
 
     
     .menu-section .menu-list .menu-item {
-        width: 100% / 2 - 30px;
+        width: calc(100% / 2 - 30px);
     }
 
     .menu-section .menu-list .menu-item .menu-image {
